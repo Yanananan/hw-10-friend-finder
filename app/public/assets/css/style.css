@@ -1,0 +1,48 @@
+body {
+    background-image: url(../images/background.png);
+    font-family: 'Cabin', sans-serif;
+}
+
+.jumbotron {
+    width: 80%;
+    margin: auto auto 15px auto;
+    padding: 20px 48px;
+    border-radius: 5px;
+    background-image: url(../images/funky-lines.png);
+}
+
+#username {
+    width: 200px;
+    margin: auto;
+}
+
+.scrollButton {
+    margin: 0px 50px 0px 50px;
+}
+
+.submitButton {
+    margin: 0px 50px 20px 50px;
+}
+
+#hide {
+    display: none;
+}
+
+.q {
+    width: 80%;
+    border: black solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.q hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#s0, #s1, #s2, #s3, #s4, #s5, #s6, #s7, #s8, #s9 {
+    border-right: 1px solid #eee;
+}

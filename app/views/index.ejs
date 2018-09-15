@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Friend Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</head>
+<body>
+    <h1></h1>
+    <h2></h2>
+    <div id="content">
+        <form action="/survey" method="POST" name="surveyform">
+            <br />
+            <div class="jumbotron">
+                <h1 class="display-4 text-center">Friend Finder</h1>
+                <p class="lead text-center">Find a like-minded friend with 10 simple questions</p>
+                <hr class="my-4">
+                <input id="username" type="text"  placeholder="Enter your username" name="username" required class="form-control">
+            </div>
+            <div id="survey"></div>
+            <div class="text-center my-4">
+                <button class="btn btn-primary btn-md mb-4 submitButton">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/javascript/survey.js"></script>
+    <script type="text/javascript" src="/assets/javascript/makeForm.js"></script>
+</body>
+</html>
